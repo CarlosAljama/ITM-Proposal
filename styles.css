@@ -1,0 +1,710 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Raleway";
+  background-color: rgba(255, 255, 255,);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/*Navigation Bar */
+.navbar {
+  height: 125.55px;
+  max-height: 125.55px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+}
+
+.navbar ul {
+  display: flex;
+  max-height: 29.86px;
+  margin-left: 13%
+}
+
+.nav-logo {
+  width: 108px;
+  height: 98.91px;
+  margin-top: 13;
+  margin-left: 1%;
+}
+
+.nav-menu{
+  width: 74%;
+  height: 11%;
+}
+
+.nav-menu li {
+  list-style: none;
+  margin-right: 10%;
+  margin-top: 48px;
+  align-items: center;
+  max-height: 29.86px;
+}
+
+.nav-menu li:nth-last-of-type(1){
+  margin-right: 0;
+}
+
+.nav-menu li a {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+  color: #4E7099;
+  text-decoration: none;
+}
+
+/* Registration Hub */
+
+.reghub{
+  display: flex ;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.regrec {
+  background: #AFD3ED;
+  border-radius: 25px;
+  width: 328;
+  height: 363;
+  margin-top: 7%;
+  min-width: 328;
+  min-height: 363;
+}
+
+.regheader {
+ text-align: center;
+ justify-content: space-around;
+ font-family: Raleway;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 24px;
+ color: #000000;
+ padding: 27.62px;
+}
+
+.home-image-text {
+ margin-top: 7%;
+ margin-left: 17%;
+}
+
+.dogimg{
+  margin-bottom: 2%;
+  padding-left: 20%;
+}
+
+.text{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 54px;
+  text-align: center;
+  color: #4E7099;
+  width: 526px;
+  height: 123px;
+}
+
+/* Form */
+
+.reghub{
+
+}
+
+.regform{
+
+}
+
+.regemail{
+  text-align: center;
+  margin-top: 3.07px;
+}
+
+.regemail input{
+  width: 258.84px;
+  height: 43.4px;
+  border: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-indent:13.83px;
+}
+
+.regemail input::-webkit-input-placeholder{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-indent:13.83px;
+}
+
+.regpass{
+  text-align: center;
+  margin-top: 23px;
+}
+
+.regpass input{
+  width: 258.84px;
+  height: 43.4px;
+  border: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-indent:13.83px;
+}
+
+.regpass input::-webkit-input-placeholder{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-indent:13.83px;
+}
+
+.regsub{
+  text-align: center;
+  margin-top: 23px;
+}
+
+.regsub input{
+  width: 258.84px;
+  height: 43.4px;
+  border: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: -0.333333px;
+  color: #FFFFFF;
+  background-color: #F3AD78;
+  border-radius: 5px;
+  width: 165.98px;
+  height: 39.46px;
+}
+
+.termscond{
+  text-align: center;
+  margin-top: 23px;
+}
+
+.termscond input{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+}
+
+.login{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 23px;
+}
+
+/* Services */
+
+.servicebody  {
+
+}
+
+.serviceimg {
+  background: url(Images/dogservice.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40%;
+  min-height: 40%;
+  max-height: 40%;
+}
+
+.services {
+  padding-top: 2%;
+}
+
+.services h1{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.services h2 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: left;
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.services p{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.services a{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+
+  color: #4E7099;
+  text-decoration: none;
+}
+
+.videoconsult {
+  display: flex;
+  padding: 2%;
+  padding-left:20%;
+}
+
+.consulttext {
+  margin-left: 15%;
+}
+
+.consulttext h2 {
+  padding: 3%;
+  padding-top: 0px;
+}
+.consulttext p {
+  width: 435px;
+  padding: 3%;
+}
+
+.consulttext a {
+  padding: 3%;
+}
+
+.clinicservice1 {
+  display: flex;
+  padding: 2%;
+}
+
+.clinicservice1 div {
+  margin-left: 15%;
+}
+
+.clinicservice1 h2 {
+  text-align: center;
+}
+
+.clinicservice1 a {
+  margin-top: 90%;
+  width: 171px;
+}
+
+.genwell {
+  display: flex;
+}
+
+.genwelltext {
+  display: flex;
+  flex-direction: column;
+}
+
+.genwelltext a{
+  margin-top: 100%;
+}
+
+.diagnostic {
+  display: flex;
+}
+
+.diagnostictext {
+  display: flex;
+  flex-direction: column;
+}
+
+.clinicservice2 {
+  display: flex;
+  padding: 2%;
+}
+
+.clinicservice2 a{
+  margin-top: 90%;
+  width: 171px;
+}
+
+.clinicservice2 h2{
+  text-align: center;
+}
+
+.surgery {
+  display: flex;
+  margin-left: 15%;
+}
+
+.surgerytext {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+}
+
+.surgerytext a {
+  margin-top: 115%;
+  width: 171px;
+}
+
+.spechealth {
+  display: flex;
+  margin-left: 19%;
+}
+
+.spechealthtext {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+}
+
+.paymentmethods {
+  padding-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Partner Clinics */
+
+.clinicheader{
+  text-align: center;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  display: flex;
+  height: 75px;
+  color: #000000;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 2%;
+}
+
+.clinicsdata {
+  padding-top: 2%;
+}
+
+.clinicsdata table {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+.clinicsdata td {
+  width: 397px;
+  height: 148px;
+  padding: 2%;
+}
+
+.clinics {
+  width: 397px;
+  height: 148px;
+  display: flex;
+  background: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.clinics img{
+  padding: 3%;
+}
+.clinics a {
+  padding-top: 22%;
+  padding-left: 20px;
+  width: 99.87px;
+  height: 44.4px;
+}
+
+.clinics p {
+  display: flex;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  padding-top: 3%;
+  width: 124.91px;
+  height: 37.67px;
+}
+
+/* Veterinarians */
+
+.vetdatabase{
+  padding-top: 2%;
+}
+
+.vetdatabase table {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.vetdatabase td {
+  width: 500px;
+  height: 100px;
+  padding: 2%;
+}
+
+.vets{
+  width: 280px;
+  height: 101px;
+  display: flex;
+  background: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.vets img {
+  padding: 100%;
+}
+
+.vets p {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  padding-top: 5%;
+  color: #000000;
+}
+
+.vets a{
+  padding-top: 20%;
+  padding-right: 2%;
+}
+
+.vets img {
+  padding: 2%;
+}
+
+/* Dashboard */
+
+.dboard {
+  width: 892px;
+  height: 257px;
+  background: rgba(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 3%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.dboardl {
+  display: flex;
+}
+
+.usericon {
+  flex-direction: column;
+  float: left;
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.usericon a {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding-top: 10%;
+  text-decoration: none;
+}
+
+.usertext {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  width: 208px;
+}
+
+.dboardr {
+  float: right;
+  padding-left: 40%;
+  padding-top: 7%;
+  text-align: right;
+}
+
+.dboardr a {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 40px;
+  color: #000000;
+  text-align: right;
+  text-decoration: none;
+}
+
+.appointments {
+  margin-top: 2%;
+}
+
+.activeappointments {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  flex-direction: column;
+}
+
+.appointmenthead {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+
+  color: #59789C;
+}
+
+.active {
+  display: flex;
+}
+
+
+.active p1 {
+  width: 429px;
+  height: 110px;
+  min-width: 429px;
+  min-height: 110px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  margin: 10%;
+  margin-left: 0px;
+  align-items: center;
+  padding: 10px;
+}
+
+.active div:nth-last-of-type(1) {
+  margin-left: 10%;
+}
+
+.active p2 {
+  padding-left: 10px;
+}
+
+.appointmenthistory {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  flex-direction: column;
+}
+
+.history {
+  display:flex;
+}
+
+.historyblock {
+  width: 429px;
+  height: 110px;
+  min-width: 429px;
+  min-height: 110px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+
+  align-items: center;
+  padding: 10px;
+  margin: 10%;
+  margin-left: 0px;
+  margin-top: 5%;
+}
+
+.historyblock p {
+  padding-left: 10px;
+}
+
+/* Footer */
+
+.footer{
+  padding-top: 8%;
+  padding-bottom: 2%;
+}
+
+.foot-wrap{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  min-width: 291px;
+  min-height: 29px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.foot-wrap a{
+  text-decoration: none;
+  color: #F3AD78;
+}
